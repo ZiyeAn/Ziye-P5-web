@@ -45,11 +45,13 @@ li {
   font-size: 1rem;
 }
 
-iframe,
-.fullwidth,
-img {
+.fullwidth{
   width: 100%;
   margin-bottom: 0.625rem;
+}
+
+img{
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
