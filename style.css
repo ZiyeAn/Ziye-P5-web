@@ -10,7 +10,7 @@ body {
 h1 {
   font-family:Copperplate, fantasy;
   color: hotpink;
-  font-size: 1.7rem;
+  font-size: 2.5rem;
 }
 
 h2 {
@@ -27,6 +27,14 @@ p {
 nav {
   width: 25%;
   padding: 0.5rem;
+}
+
+a:link {
+  color: Hotpink;
+}
+
+a:visited{
+  color:ebbaff;
 }
 
 main {
