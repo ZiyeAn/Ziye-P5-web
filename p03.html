@@ -47,7 +47,9 @@
         points when pressing the mouse, That means it is around 3 AM/PM o'clock,
         if there is 4 ripples and each ripple has 1 point and 2 rings, that
         means it's about 4:20 (need to minus the single digit ring). The
-        rotation of the rings are based on the second().
+        rotation of the rings are based on the second() and I used lerp() to
+        make the rotation looks smoother. I kind of like the motion when it lerp
+        from 0 so I make the angle reset to 0 everytime the mouse is released.
       </p>
 
       <!-- 4. reflection -->
@@ -69,7 +71,8 @@
         after planning out the parameters i need to use. I am pretty satisfied
         with the final result but there are still 2 problems I want to
         imporve.First is that I don't want the ripples to overlap but I couldn't
-        find a way to do this due the the random() function. Second is that I want the ripple to fade away
+        find a way to do this due the the random() function. Second is that I
+        want the ripple to fade away while mouse is released.
       </p>
 
       <!-- 4. reflection -->
