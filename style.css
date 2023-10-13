@@ -10,13 +10,13 @@ body {
 
 h1 {
   font-family:Copperplate, fantasy;
-  color: #7a7143;
+  color: #868ebb;
   font-size: 2.5rem;
 }
 
 h2 {
-  font-family: monospace;
-  color:#ac9e74;
+  font-family:"Gill Sans", sans-serif;
+  color:#868ebb;
   font-size: 1.5rem;
 }
 
@@ -32,11 +32,11 @@ nav {
 }
 
 a:link {
-  color: #868ebb;
+  color: #ac9e74;
 }
 
 a:visited{
-  color:#5a5183 ;
+  color:#7a7143;
 }
 
 main {
