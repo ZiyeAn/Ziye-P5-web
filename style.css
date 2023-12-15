@@ -2,8 +2,8 @@
 /*#362e54,#5a5183,#868ebb,#7a7143,#ac9e74*/
 @import url('https://cdn.glitch.global/37ceb013-f438-4f12-b04d-aa6a3298d270/LEDLIGHT.otf?v=1702669885121');
 @font-face {
-  font-family: myFirstFont;
-  src: url(LEDLIGHT.otf);
+  font-family: Ledlight;
+  src: url('https://cdn.glitch.global/37ceb013-f438-4f12-b04d-aa6a3298d270/LEDLIGHT.otf?v=1702669885121');
 }
 
 body {
@@ -30,8 +30,9 @@ h2 {
   color: transparent;
   text-shadow: 0 0 5px #000000;
 }
+
 #ledfont{
-  font-family:myFirstFont
+  font-family: Ledlight;
 }
 
 p {
