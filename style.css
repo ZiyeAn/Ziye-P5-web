@@ -20,6 +20,11 @@ h2 {
   font-size: 1.5rem;
 }
 
+#shadow {
+  color: transparent;
+  text-shadow: 0 0 5px #00000c;
+}
+
 p {
   color:#ffffff;
   font-size: 1rem;
