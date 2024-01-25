@@ -1,0 +1,96 @@
+/* CSS files add styling rules to your content */
+/*#362e54,#5a5183,#868ebb,#7a7143,#ac9e74*/
+@import url('https://cdn.glitch.global/37ceb013-f438-4f12-b04d-aa6a3298d270/LEDLIGHT.otf?v=1702669885121');
+@font-face {
+  font-family: Ledlight;
+  src: url('https://cdn.glitch.global/37ceb013-f438-4f12-b04d-aa6a3298d270/LEDLIGHT.otf?v=1702669885121');
+}
+
+body {
+  font-family: "Gill Sans", sans-serif;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  background-color:#362e54;
+}
+
+h1 {
+  font-family:Copperplate, fantasy;
+  color: #868ebb;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family:"Gill Sans", sans-serif;
+  color:#868ebb;
+  font-size: 1.5rem;
+}
+
+#shadow {
+  color: transparent;
+  text-shadow: 0 0 5px #000000;
+}
+
+#ledfont{
+  font-family: Ledlight;
+}
+
+p {
+  color:#ffffff;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+nav {
+  width: 20%;
+  padding: 0.5rem;
+}
+
+a:link {
+  color: #ac9e74;
+}
+
+a:visited{
+  color:#7a7143;
+}
+
+main {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0.5rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+li {
+  font-size: 1rem;
+  color:#fffffe
+}
+
+.fullwidth {
+  width: 100%;
+  margin-bottom: 0.625rem;
+}
+
+img {
+  max-width: 100%;
+}
+.inline-block {
+   display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    width: 100%;
+  }
+  body {
+    flex-direction: column;
+  }
+}
